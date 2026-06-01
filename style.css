@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    background-image: url('road.png');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.poke_desc{
+
+    color: black;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 20px;
+
+    border: 5px solid white;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+}
+.pokedex{
+    color: blue;
+    font-size: 50px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 20px;
+
+    border: 5px solid white;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+}
+.pokemon-card {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: row;
+
+
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    text-align: center;
+    background-color: white;
+}
