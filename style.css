@@ -3,6 +3,7 @@ body {
     align-items: center;
     flex-direction: column;
 
+
     background-image: url('road.png');
     background-position: center;
     background-size: cover;
@@ -16,17 +17,32 @@ body {
     text-align: center;
     margin-top: 20px;
 
+
     border: 5px solid white;
     padding: 20px;
     background-color: white;
     border-radius: 20px;
 }
-.pokedex{
+.pokedex {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 20px;
+
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+}
+.pokedex-title{
     color: blue;
     font-size: 50px;
     font-family:'Times New Roman', Times, serif;
     text-align: center;
     margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
 
     border: 5px solid white;
     padding: 20px;
@@ -38,6 +54,7 @@ body {
     justify-content: center;
     gap: 20px;
     flex-direction: row;
+
 
 
     border: 1px solid #ccc;
